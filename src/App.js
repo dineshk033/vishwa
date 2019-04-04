@@ -2,7 +2,7 @@ import React, { Component ,Suspense,lazy} from 'react';
 import { Label,Image,Segment,Placeholder} from 'semantic-ui-react'
 import {createStore} from'redux';
 import {Provider} from'react-redux';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter  as Router, Route } from "react-router-dom";
 
 
 
